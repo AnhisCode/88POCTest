@@ -10,7 +10,7 @@ const UserPage = () => {
     const recentlyCompletedObjective = searchParams.get('questID')
 
     return (
-        <div className={"text-2xl"}>
+        <div className={"text-2xl bg-white"}>
             <p>User ID: {userID || "no User ID"}</p>
             <p>Recently Completed Objective: {recentlyCompletedObjective || "Not yet Started"}</p>
         </div>
